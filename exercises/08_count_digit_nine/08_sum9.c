@@ -24,17 +24,28 @@
  *
  * Return value:  how many digit in this num
  */
-int find(int num, int digit) {
-#error TODO: Fix this exercise. Run "clings hint" for help.
+int find(int num, int digit)
+{
+    // #error TODO: Fix this exercise. Run "clings hint" for help.
+    int counter = 0;
+    do
+    {
+        if (num % 10 == digit)
+            counter++;
+        num /= 10;
+    } while (num);
+    return counter;
 }
 
-int main(void) {
+int main(void)
+{
     int begin = 1;
     int end = 100;
     int i = 0;
     int sum = 0;
 
-    for (i = begin; i <= end; i++) {
+    for (i = begin; i <= end; i++)
+    {
         sum += find(i, 9);
     }
 

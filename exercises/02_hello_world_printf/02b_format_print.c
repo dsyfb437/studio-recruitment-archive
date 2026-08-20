@@ -18,9 +18,14 @@
 
 #include <stdio.h>
 
-#error TODO: Fix this exercise. Run "clings hint" for help.
+// #error TODO: Fix this exercise. Run "clings hint" for help.
+int global = 200;
 
-int main(void) {
-#error TODO: Fix this exercise. Run "clings hint" for help.
+int main(void)
+{
+    // #error TODO: Fix this exercise. Run "clings hint" for help.
+    int local = 100;
+    printf("local = %d\n", local);
+    printf("global = 0x%x\n", global);
     return 0;
 }

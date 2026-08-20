@@ -15,20 +15,29 @@
 #include <assert.h>
 #include <stdio.h>
 
-char *mystrcpy(char *dest, const char *src) {
+char *mystrcpy(char *dest, const char *src)
+{
     assert(dest != NULL && src != NULL);
 
-#error TODO: Implement mystrcpy using pointer idiom. Run "clings hint" for help.
+    char *ret = dest;
+
+    while ((*dest++ = *src++) != '\0')
+        ;
+
+    return ret;
+    // #error TODO: Implement mystrcpy using pointer idiom. Run "clings hint" for help.
 }
 
-int main(void) {
+int main(void)
+{
     char s1[256] = "";
     char s2[256];
 
     fgets(s2, sizeof(s2), stdin);
     /* 去掉换行 */
     int i = 0;
-    while (s2[i] && s2[i] != '\n') i++;
+    while (s2[i] && s2[i] != '\n')
+        i++;
     s2[i] = '\0';
 
     mystrcpy(s1, s2);
