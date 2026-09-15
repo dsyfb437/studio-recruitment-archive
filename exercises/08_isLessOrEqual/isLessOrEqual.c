@@ -7,14 +7,20 @@
  *   Max ops: 24
  *   Rating: 3
  */
-int isLessOrEqual(int x, int y) {
-#error TODO: Return 1 when x is less than or equal to y.
+int isLessOrEqual(int x, int y)
+{
+    // #error TODO: Return 1 when x is less than or equal to y.
+    // printf("%dqwq\n", -2147483648 + ~2147483647 >> 31);
+    int c = ((x ^ y) >> 31 & 1);
+    c = ~c + 1;
+    return (x >> 31 & c) || (x + ~y >> 31 & ~c);
 }
 
-int main(void) {
-  int x, y;
-  if (scanf("%d %d", &x, &y) != 2)
-    return 1;
-  printf("%d\n", isLessOrEqual(x, y));
-  return 0;
+int main(void)
+{
+    int x, y;
+    if (scanf("%d %d", &x, &y) != 2)
+        return 1;
+    printf("%d\n", isLessOrEqual(x, y));
+    return 0;
 }

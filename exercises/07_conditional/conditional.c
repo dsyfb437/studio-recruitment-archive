@@ -7,14 +7,19 @@
  *   Max ops: 16
  *   Rating: 3
  */
-int conditional(int x, int y, int z) {
-#error TODO: Return the equivalent of x ? y : z using bit operations.
+int conditional(int x, int y, int z)
+{
+    // #error TODO: Return the equivalent of x ? y : z using bit operations.
+    int c = !(!x);
+    c = ~c + 1;
+    return (y & c) | (z & ~c);
 }
 
-int main(void) {
-  int x, y, z;
-  if (scanf("%d %d %d", &x, &y, &z) != 3)
-    return 1;
-  printf("%d\n", conditional(x, y, z));
-  return 0;
+int main(void)
+{
+    int x, y, z;
+    if (scanf("%d %d %d", &x, &y, &z) != 3)
+        return 1;
+    printf("%d\n", conditional(x, y, z));
+    return 0;
 }

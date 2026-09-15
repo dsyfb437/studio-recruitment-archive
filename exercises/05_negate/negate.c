@@ -7,14 +7,17 @@
  *   Max ops: 5
  *   Rating: 2
  */
-int negate(int x) {
-#error TODO: Return the two's-complement negation of x
+int negate(int x)
+{
+    // #error TODO: Return the two's-complement negation of x
+    return (~x) + 1;
 }
 
-int main(void) {
-  int x;
-  if (scanf("%d", &x) != 1)
-    return 1;
-  printf("%d\n", negate(x));
-  return 0;
+int main(void)
+{
+    int x;
+    if (scanf("%d", &x) != 1)
+        return 1;
+    printf("%d\n", negate(x));
+    return 0;
 }

@@ -7,14 +7,17 @@
  *   Max ops: 10
  *   Rating: 1
  */
-int isTmax(int x) {
-#error TODO: Return 1 only when x is the maximum 32-bit two's-complement integer
+int isTmax(int x)
+{
+    // #error TODO: Return 1 only when x is the maximum 32-bit two's-complement integer
+    return !(x ^ ((1 << 31) + ~1 + 1));
 }
 
-int main(void) {
-  int x;
-  if (scanf("%d", &x) != 1)
-    return 1;
-  printf("%d\n", isTmax(x));
-  return 0;
+int main(void)
+{
+    int x;
+    if (scanf("%d", &x) != 1)
+        return 1;
+    printf("%d\n", isTmax(x));
+    return 0;
 }

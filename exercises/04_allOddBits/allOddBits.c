@@ -8,14 +8,21 @@
  *   Max ops: 12
  *   Rating: 2
  */
-int allOddBits(int x) {
-#error TODO: Return 1 if every odd-numbered bit of x is set.
+int allOddBits(int x)
+{
+    // #error TODO: Return 1 if every odd-numbered bit of x is set.
+    int y = 170 + (170 << 8);
+    // printf("%d\n", y);
+    y = y + (y << 16);
+    // printf("%d\n", y);
+    return !((x & y) ^ y);
 }
 
-int main(void) {
-  int x;
-  if (scanf("%d", &x) != 1)
-    return 1;
-  printf("%d\n", allOddBits(x));
-  return 0;
+int main(void)
+{
+    int x;
+    if (scanf("%d", &x) != 1)
+        return 1;
+    printf("%d\n", allOddBits(x));
+    return 0;
 }

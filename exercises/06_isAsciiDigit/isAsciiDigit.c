@@ -8,14 +8,18 @@
  *   Max ops: 15
  *   Rating: 3
  */
-int isAsciiDigit(int x) {
-#error TODO: Return 1 when x is between 0x30 and 0x39 inclusive.
+int isAsciiDigit(int x)
+{
+    // #error TODO: Return 1 when x is between 0x30 and 0x39 inclusive.
+    // printf("%dqwq\n", (x & 32) >> 5);
+    return ((x & 16) >> 4) & ((x & 32) >> 5) & ((x + ~58 + 1) >> 31 & 1);
 }
 
-int main(void) {
-  int x;
-  if (scanf("%d", &x) != 1)
-    return 1;
-  printf("%d\n", isAsciiDigit(x));
-  return 0;
+int main(void)
+{
+    int x;
+    if (scanf("%d", &x) != 1)
+        return 1;
+    printf("%d\n", isAsciiDigit(x));
+    return 0;
 }
