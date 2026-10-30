@@ -1,0 +1,59 @@
+{
+  "verified_utc": "2026-10-30T18:05:59.131756+00:00",
+  "verified_remote_commit": "68956faba6d2a58efb08d75708aaa92ace2ad389",
+  "remote_fsck": "passed",
+  "entire_archive_tree_matches_uploaded_tree": true,
+  "original_repositories_modified_or_deleted": false,
+  "projects": [
+    {
+      "name": "lr-core-binary",
+      "commits": 2,
+      "files": 32,
+      "tree_matches": true,
+      "original_commits_reachable_from_main": true,
+      "namespaced_refs_match": true,
+      "source_remote_unchanged": true,
+      "standalone_bundle_restored_and_verified": true
+    },
+    {
+      "name": "lr-fe-button",
+      "commits": 2,
+      "files": 2,
+      "tree_matches": true,
+      "original_commits_reachable_from_main": true,
+      "namespaced_refs_match": true,
+      "source_remote_unchanged": true,
+      "standalone_bundle_restored_and_verified": true
+    },
+    {
+      "name": "lr-fe-travel-diary-theme",
+      "commits": 1,
+      "files": 6,
+      "tree_matches": true,
+      "original_commits_reachable_from_main": true,
+      "namespaced_refs_match": true,
+      "source_remote_unchanged": true,
+      "standalone_bundle_restored_and_verified": true
+    },
+    {
+      "name": "lr_fe_console",
+      "commits": 1,
+      "files": 4,
+      "tree_matches": true,
+      "original_commits_reachable_from_main": true,
+      "namespaced_refs_match": true,
+      "source_remote_unchanged": true,
+      "standalone_bundle_restored_and_verified": true
+    },
+    {
+      "name": "clings-recruit",
+      "commits": 4,
+      "files": 68,
+      "tree_matches": true,
+      "original_commits_reachable_from_main": true,
+      "namespaced_refs_match": true,
+      "source_remote_unchanged": true,
+      "standalone_bundle_restored_and_verified": true
+    }
+  ]
+}
