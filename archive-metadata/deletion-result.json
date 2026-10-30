@@ -1,0 +1,31 @@
+{
+  "authorization": "User explicitly confirmed deletion of the five archived originals and team-templates in chat on 2026-10-31.",
+  "deleted": [
+    {
+      "repository": "dsyfb437/lr-core-binary",
+      "id": 1370034614,
+      "deleted_utc": "2026-10-30T18:13:18.599754+00:00"
+    },
+    {
+      "repository": "dsyfb437/lr-fe-button",
+      "id": 1377882679,
+      "deleted_utc": "2026-10-30T18:13:20.237229+00:00"
+    },
+    {
+      "repository": "dsyfb437/lr-fe-travel-diary-theme",
+      "id": 1429273450,
+      "deleted_utc": "2026-10-30T18:13:21.709073+00:00"
+    },
+    {
+      "repository": "dsyfb437/lr_fe_console",
+      "id": 1377755388,
+      "deleted_utc": "2026-10-30T18:13:23.149759+00:00"
+    },
+    {
+      "repository": "dsyfb437/clings-recruit",
+      "id": 1340879777,
+      "deleted_utc": "2026-10-30T18:13:24.496601+00:00"
+    }
+  ],
+  "verified_absent_from_authenticated_owner_inventory": true
+}
