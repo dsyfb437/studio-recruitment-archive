@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            color: #fff;
+            background-color: #66CCFF;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #39C5BB;
+        }
+
+        .button:active {
+            background-color: #39C5BB;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        /* 隐藏 checkbox，但保留可访问性 */
+        .toggle-input {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        /* 图片默认隐藏 */
+        .pic {
+            display: none;
+            margin-top: 25px;
+            border-radius: 10px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* checkbox 被选中时，显示它后面的 .pic */
+        .toggle-input:checked~.pic {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input type="checkbox" id="toggle" class="toggle-input">
+    <label for="toggle" class="button"><svg xmlns="http://w3.org" viewBox="0 0 24 24" width="24" height="24"
+            fill="currentColor">
+            <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" />
+        </svg></label>
+    <br>
+    <img class="pic" src="qaqaq.jpg" alt="qaqaq">
+
+</body>
+
+</html>
