@@ -1,0 +1,117 @@
+{
+  "owner": "dsyfb437",
+  "snapshot_utc": "2026-10-30T18:00:14.579717+00:00",
+  "strategy": "Unmodified original Git objects; merge parents plus prefixed current trees; namespaced original refs and standalone bundles.",
+  "projects": [
+    {
+      "name": "lr-core-binary",
+      "default_branch": "main",
+      "head": "5cd1a71002ef109670f825c92522ba11b6de3d7e",
+      "tree": "c3b8eef59c9ca58e7971ce828cb7946c61895975",
+      "commit_count": 2,
+      "commits": [
+        "5cd1a71002ef109670f825c92522ba11b6de3d7e",
+        "bcd1617ab7629640e70b6c407196cf68c063a2b7"
+      ],
+      "refs": [
+        {
+          "sha": "5cd1a71002ef109670f825c92522ba11b6de3d7e",
+          "ref": "refs/heads/main",
+          "archive_ref": "refs/heads/original/lr-core-binary/main"
+        }
+      ],
+      "file_count": 32,
+      "bundle_sha256": "7fd0c610863f139f5594a7f3c5d55a38182c4c6d2d6eb7ad6dd13c4959f07e64",
+      "lfs_pointers": [],
+      "historical_gitmodules": false
+    },
+    {
+      "name": "lr-fe-button",
+      "default_branch": "main",
+      "head": "b83348f9442ddaa1b2dd101c80606ea058c74f78",
+      "tree": "ac81b03c634df7bde5df21e3a7408e4f54812087",
+      "commit_count": 2,
+      "commits": [
+        "b83348f9442ddaa1b2dd101c80606ea058c74f78",
+        "7261bcd52c7c2d775a084a7ca76b2ca219e2c59f"
+      ],
+      "refs": [
+        {
+          "sha": "b83348f9442ddaa1b2dd101c80606ea058c74f78",
+          "ref": "refs/heads/main",
+          "archive_ref": "refs/heads/original/lr-fe-button/main"
+        }
+      ],
+      "file_count": 2,
+      "bundle_sha256": "1604f9f97ce427b2672c9fd74014846aa8b09e70f517bf1c955bd6e5079c5945",
+      "lfs_pointers": [],
+      "historical_gitmodules": false
+    },
+    {
+      "name": "lr-fe-travel-diary-theme",
+      "default_branch": "main",
+      "head": "5e650c6690522713e4a6395adc8985d4e69aaf6f",
+      "tree": "87475a683d1962adf4e2a768385bfca0e1752eec",
+      "commit_count": 1,
+      "commits": [
+        "5e650c6690522713e4a6395adc8985d4e69aaf6f"
+      ],
+      "refs": [
+        {
+          "sha": "5e650c6690522713e4a6395adc8985d4e69aaf6f",
+          "ref": "refs/heads/main",
+          "archive_ref": "refs/heads/original/lr-fe-travel-diary-theme/main"
+        }
+      ],
+      "file_count": 6,
+      "bundle_sha256": "0bb12739c47b84e3e63d80e0f5ab875fa628a9817b0333e212fbe6496cc6d3d2",
+      "lfs_pointers": [],
+      "historical_gitmodules": false
+    },
+    {
+      "name": "lr_fe_console",
+      "default_branch": "main",
+      "head": "398bf521dd6be572e673a0e7c2800cf620aef08d",
+      "tree": "bb191831220fc125d367a1dc18d5bc6cde409e83",
+      "commit_count": 1,
+      "commits": [
+        "398bf521dd6be572e673a0e7c2800cf620aef08d"
+      ],
+      "refs": [
+        {
+          "sha": "398bf521dd6be572e673a0e7c2800cf620aef08d",
+          "ref": "refs/heads/main",
+          "archive_ref": "refs/heads/original/lr_fe_console/main"
+        }
+      ],
+      "file_count": 4,
+      "bundle_sha256": "35a40456992ea89914207cd3699ef918435a9297bcaa34ab3ba632987cd589d2",
+      "lfs_pointers": [],
+      "historical_gitmodules": false
+    },
+    {
+      "name": "clings-recruit",
+      "default_branch": "main",
+      "head": "30fd86793c9bda29fa5b442301f0441b24197b09",
+      "tree": "17032dbc40f06278a4002983f5c7d0ad92f6d576",
+      "commit_count": 4,
+      "commits": [
+        "30fd86793c9bda29fa5b442301f0441b24197b09",
+        "f62893beab5005970c5b8a875e439fa6efd3090a",
+        "1868641da797e51b1a3499811c8300713f456249",
+        "79ea8e912b40b876057b8abf998fab33af508bb8"
+      ],
+      "refs": [
+        {
+          "sha": "30fd86793c9bda29fa5b442301f0441b24197b09",
+          "ref": "refs/heads/main",
+          "archive_ref": "refs/heads/original/clings-recruit/main"
+        }
+      ],
+      "file_count": 68,
+      "bundle_sha256": "999c85118133a1ad1ae7a6a1b6cd9926bc3151abbb28989d269ad71d98cb0363",
+      "lfs_pointers": [],
+      "historical_gitmodules": false
+    }
+  ]
+}

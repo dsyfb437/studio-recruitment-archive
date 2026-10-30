@@ -1,0 +1,112 @@
+[
+  {
+    "id": 12192562937,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru--Q",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/accessibility",
+    "name": "accessibility",
+    "color": "f143ab",
+    "default": true,
+    "description": "Barrier affecting people with disabilities",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192562921,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru-6Q",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/bug",
+    "name": "bug",
+    "color": "d73a4a",
+    "default": true,
+    "description": "Something isn't working",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192562954,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_Cg",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/documentation",
+    "name": "documentation",
+    "color": "0075ca",
+    "default": true,
+    "description": "Improvements or additions to documentation",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192562971,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_Gw",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/duplicate",
+    "name": "duplicate",
+    "color": "cfd3d7",
+    "default": true,
+    "description": "This issue or pull request already exists",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192562990,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_Lg",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/enhancement",
+    "name": "enhancement",
+    "color": "a2eeef",
+    "default": true,
+    "description": "New feature or request",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192563043,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_Yw",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/good%20first%20issue",
+    "name": "good first issue",
+    "color": "7057ff",
+    "default": true,
+    "description": "Good for newcomers",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192563010,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_Qg",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/help%20wanted",
+    "name": "help wanted",
+    "color": "008672",
+    "default": true,
+    "description": "Extra attention is needed",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192563063,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_dw",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/invalid",
+    "name": "invalid",
+    "color": "e4e669",
+    "default": true,
+    "description": "This doesn't seem right",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192563089,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_kQ",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/question",
+    "name": "question",
+    "color": "d876e3",
+    "default": true,
+    "description": "Further information is requested",
+    "archived_at": null,
+    "archived_by": null
+  },
+  {
+    "id": 12192563113,
+    "node_id": "LA_kwDOUakRts8AAAAC1ru_qQ",
+    "url": "https://api.github.com/repos/dsyfb437/lr-core-binary/labels/wontfix",
+    "name": "wontfix",
+    "color": "ffffff",
+    "default": true,
+    "description": "This will not be worked on",
+    "archived_at": null,
+    "archived_by": null
+  }
+]

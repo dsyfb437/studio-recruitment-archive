@@ -1,0 +1,82 @@
+[
+  {
+    "id": 9417442544,
+    "node_id": "MDg6QXJ0aWZhY3Q5NDE3NDQyNTQ0",
+    "name": "clings-score",
+    "size_in_bytes": 491,
+    "url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417442544",
+    "archive_download_url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417442544/zip",
+    "expired": false,
+    "digest": "sha256:f74884755f4cc55e1d597f3888a57ea461ef592d7388ffcdcf2cceeda515ab4c",
+    "created_at": "2026-08-20T17:32:53Z",
+    "updated_at": "2026-08-20T17:32:53Z",
+    "expires_at": "2026-11-18T17:32:39Z",
+    "workflow_run": {
+      "id": 32398187066,
+      "repository_id": 1340879777,
+      "head_repository_id": 1340879777,
+      "head_branch": "main",
+      "head_sha": "30fd86793c9bda29fa5b442301f0441b24197b09"
+    }
+  },
+  {
+    "id": 9417386086,
+    "node_id": "MDg6QXJ0aWZhY3Q5NDE3Mzg2MDg2",
+    "name": "clings-score",
+    "size_in_bytes": 491,
+    "url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417386086",
+    "archive_download_url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417386086/zip",
+    "expired": false,
+    "digest": "sha256:7150262e8fe4ff6af7b565527cf1e6617b82aa2fe19c6af51c616859c0917b75",
+    "created_at": "2026-08-20T17:31:15Z",
+    "updated_at": "2026-08-20T17:31:15Z",
+    "expires_at": "2026-11-18T17:31:01Z",
+    "workflow_run": {
+      "id": 32398037938,
+      "repository_id": 1340879777,
+      "head_repository_id": 1340879777,
+      "head_branch": "main",
+      "head_sha": "f62893beab5005970c5b8a875e439fa6efd3090a"
+    }
+  },
+  {
+    "id": 9417179336,
+    "node_id": "MDg6QXJ0aWZhY3Q5NDE3MTc5MzM2",
+    "name": "clings-score",
+    "size_in_bytes": 491,
+    "url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417179336",
+    "archive_download_url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9417179336/zip",
+    "expired": false,
+    "digest": "sha256:1e6689b480257983f6833265fa3faa76f47f1e3c01b75dbbd5498afc7293bb83",
+    "created_at": "2026-08-20T17:25:09Z",
+    "updated_at": "2026-08-20T17:25:09Z",
+    "expires_at": "2026-11-18T17:24:54Z",
+    "workflow_run": {
+      "id": 32397470034,
+      "repository_id": 1340879777,
+      "head_repository_id": 1340879777,
+      "head_branch": "main",
+      "head_sha": "1868641da797e51b1a3499811c8300713f456249"
+    }
+  },
+  {
+    "id": 9414180680,
+    "node_id": "MDg6QXJ0aWZhY3Q5NDE0MTgwNjgw",
+    "name": "clings-score",
+    "size_in_bytes": 1469,
+    "url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9414180680",
+    "archive_download_url": "https://api.github.com/repos/dsyfb437/clings-recruit/actions/artifacts/9414180680/zip",
+    "expired": false,
+    "digest": "sha256:73a636838d1351b3fbc9bee0a9e7d3992d4b209211a561cea0d636fd3b8162f8",
+    "created_at": "2026-08-20T15:58:58Z",
+    "updated_at": "2026-08-20T15:58:58Z",
+    "expires_at": "2026-11-18T15:58:47Z",
+    "workflow_run": {
+      "id": 32389338073,
+      "repository_id": 1340879777,
+      "head_repository_id": 1340879777,
+      "head_branch": "main",
+      "head_sha": "79ea8e912b40b876057b8abf998fab33af508bb8"
+    }
+  }
+]
