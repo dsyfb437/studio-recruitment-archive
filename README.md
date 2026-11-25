@@ -1,6 +1,6 @@
 # Studio Recruitment Archive
 
-Private archive of five completed Lingrui Studio recruitment projects, assembled on 2026-10-31 with the owner's authorization.
+Public archive of five completed Lingrui Studio recruitment projects, assembled on 2026-10-31 with the owner's authorization.
 
 | Directory | Original repository |
 | --- | --- |
@@ -12,7 +12,7 @@ Private archive of five completed Lingrui Studio recruitment projects, assembled
 
 ## Preservation method
 
-Each directory is the exact default-branch Git tree of its source repository. All original commits, author/committer information, messages and hashes remain unchanged. Original histories are merged as parents of archive commits, without squashing or rewriting. Before the import commit, historical file paths remain at their original repository root. To inspect a project's old path history, use its `original/<project>/main` branch or its standalone bundle.
+Each directory contains the source repository’s default-branch files. The five project histories are preserved. In lr_fe_console, the saved CSRF value and browser cookie screenshot are redacted throughout the public history and in its standalone bundle. Four original project branch tips retain their original hashes. Original histories are merged as parents of archive commits, without squashing or rewriting. Before the import commit, historical file paths remain at their original repository root. To inspect a project's old path history, use its `original/<project>/main` branch or its standalone bundle.
 
 Original branches are saved as `original/<project>/<branch>`. Tags, if present, use `original/<project>/<tag>`. Additional advertised refs, if present, are retained as namespaced tags. `archive-metadata/manifest.json` records exact source and destination refs, commits, tree hashes, file counts and bundle SHA-256 hashes. Standalone bundles in `archive-metadata/bundles/` restore the original repositories with `git clone <project>.bundle <directory>`.
 
@@ -20,4 +20,4 @@ Original branches are saved as `original/<project>/<branch>`. Tags, if present, 
 
 ## Validation
 
-Source mirrors passed `git fsck --full --strict`. Each imported directory's Git tree hash equals its source default-branch tree, which verifies tracked paths, bytes and file modes. Every source ref and reachable commit is recorded and retained; each standalone bundle was verified. After upload, a fresh mirror is compared against this manifest and checked with `git fsck` before any deletion is considered. See `archive-metadata/verification.json` for the recorded result.
+The manifest lists the public project refs, trees and standalone bundle checksums. Earlier verification and deletion records document the original private archive.

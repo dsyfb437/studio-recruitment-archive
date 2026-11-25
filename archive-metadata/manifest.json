@@ -1,7 +1,7 @@
 {
   "owner": "dsyfb437",
   "snapshot_utc": "2026-10-30T18:00:14.579717+00:00",
-  "strategy": "Unmodified original Git objects; merge parents plus prefixed current trees; namespaced original refs and standalone bundles.",
+  "strategy": "Public archive. Browser session data in lr_fe_console was redacted in the Git history and standalone bundle; the original verification records describe the private copy.",
   "projects": [
     {
       "name": "lr-core-binary",
@@ -71,21 +71,21 @@
     {
       "name": "lr_fe_console",
       "default_branch": "main",
-      "head": "398bf521dd6be572e673a0e7c2800cf620aef08d",
-      "tree": "bb191831220fc125d367a1dc18d5bc6cde409e83",
+      "head": "eeae95c6ec3b0f93f4bc4c26110154d4aec8b52b",
+      "tree": "216e7b8d53e3c13a9b102506e353aa89a36eddd1",
       "commit_count": 1,
       "commits": [
-        "398bf521dd6be572e673a0e7c2800cf620aef08d"
+        "eeae95c6ec3b0f93f4bc4c26110154d4aec8b52b"
       ],
       "refs": [
         {
-          "sha": "398bf521dd6be572e673a0e7c2800cf620aef08d",
+          "sha": "eeae95c6ec3b0f93f4bc4c26110154d4aec8b52b",
           "ref": "refs/heads/main",
           "archive_ref": "refs/heads/original/lr_fe_console/main"
         }
       ],
       "file_count": 4,
-      "bundle_sha256": "35a40456992ea89914207cd3699ef918435a9297bcaa34ab3ba632987cd589d2",
+      "bundle_sha256": "84450b2449e9659b04026f1a5ae2636bf3bafdb4abdb392cd77d5e4e237a6f6c",
       "lfs_pointers": [],
       "historical_gitmodules": false
     },
